@@ -1,0 +1,19 @@
+
+
+Algorithms Used for Rainfall Prediction:
+1. Random Forest Regressor – Used as the primary machine learning model for predicting rainfall.
+2. Decision Tree Regressor – Another tree-based model that might have been tested for comparison.
+3. Linear Regression – A simple regression model used in some parts of the analysis.
+4. Polynomial Regression  – Used for fitting non-linear relationships between features and rainfall.
+5. Gradient Boosting Regressor – An ensemble method used to improve predictive performance.
+6. XGBoost Regressor – A powerful boosting algorithm that improves accuracy.
+
+Libraries Used:
+1. Pandas – For data loading and preprocessing.
+2. NumPy – For numerical computations.
+3. Matplotlib & Seaborn – For data visualization.
+4. Scikit-Learn (sklearn) – Used for machine learning models, train-test splitting, feature scaling, and performance evaluation.
+5. XGBoost – Used for implementing the XGBoost regressor.
+6. Flask – Used in `Webinterface.py to create a web-based interface for users to input data and get rainfall predictions.
+
+python version - 3.12.x
